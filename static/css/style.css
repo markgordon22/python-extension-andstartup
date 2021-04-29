@@ -1,0 +1,9 @@
+.col-md-5 img{
+width: 100%;
+}
+
+img{
+height: 300px;
+border-radius: 20px;
+box-shadow: inset;
+}
