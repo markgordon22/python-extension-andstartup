@@ -2,7 +2,7 @@ import os
 import json
 from flask import Flask, render_template, request, flash
 if os.path.exists("env.py"):
-    import env
+  import env
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY")
@@ -30,7 +30,8 @@ def about_member(member_name):
         for obj in data:
             if obj["url"] == member_name:
                 member = obj
-    return render_template("member.html", member=member)
+    return render_template("member.html", m=member)
+    
 
 
 @app.route("/contact", methods = ["GET", "POST"])
