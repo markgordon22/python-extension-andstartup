@@ -7,3 +7,8 @@ height: 300px;
 border-radius: 20px;
 box-shadow: inset;
 }
+
+.flashes{
+background-color: aqua;
+letter-spacing: 5px;
+}
